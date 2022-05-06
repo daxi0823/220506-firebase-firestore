@@ -49,6 +49,11 @@ const routes = [
     path: '/transition',
     name: 'VueAnim',
     component: () => import('../views/VueAnim.vue')
+  },
+  {
+    path: '/setting-menu',
+    name: 'SettingMenu',
+    component: () => import('../views/SettingMenu.vue')
   }
 ]
 
